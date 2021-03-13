@@ -13,6 +13,8 @@
 		031B897A25FCC21E009BBA51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031B897925FCC21E009BBA51 /* Preview Assets.xcassets */; };
 		031B898525FCC21E009BBA51 /* SwiftUiCustomCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B898425FCC21E009BBA51 /* SwiftUiCustomCameraTests.swift */; };
 		031B899025FCC21E009BBA51 /* SwiftUiCustomCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B898F25FCC21E009BBA51 /* SwiftUiCustomCameraUITests.swift */; };
+		031B89A125FCCC44009BBA51 /* placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 031B89A025FCCC44009BBA51 /* placeholder.jpeg */; };
+		031B89A925FCCFAE009BBA51 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B89A825FCCFAE009BBA51 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		031B898B25FCC21E009BBA51 /* SwiftUiCustomCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiCustomCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031B898F25FCC21E009BBA51 /* SwiftUiCustomCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiCustomCameraUITests.swift; sourceTree = "<group>"; };
 		031B899125FCC21E009BBA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031B89A025FCCC44009BBA51 /* placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpeg; sourceTree = "<group>"; };
+		031B89A825FCCFAE009BBA51 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 				031B897225FCC219009BBA51 /* SwiftUiCustomCameraApp.swift */,
 				031B897425FCC219009BBA51 /* ContentView.swift */,
 				031B897625FCC21E009BBA51 /* Assets.xcassets */,
+				031B89A025FCCC44009BBA51 /* placeholder.jpeg */,
 				031B897B25FCC21E009BBA51 /* Info.plist */,
 				031B897825FCC21E009BBA51 /* Preview Content */,
+				031B89A825FCCFAE009BBA51 /* ImagePicker.swift */,
 			);
 			path = SwiftUiCustomCamera;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031B89A125FCCC44009BBA51 /* placeholder.jpeg in Resources */,
 				031B897A25FCC21E009BBA51 /* Preview Assets.xcassets in Resources */,
 				031B897725FCC21E009BBA51 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031B89A925FCCFAE009BBA51 /* ImagePicker.swift in Sources */,
 				031B897525FCC219009BBA51 /* ContentView.swift in Sources */,
 				031B897325FCC219009BBA51 /* SwiftUiCustomCameraApp.swift in Sources */,
 			);
